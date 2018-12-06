@@ -103,7 +103,7 @@ header {
 
 .content {
     margin: 0 auto;
-    width: 1170px;
+    width: 85%;
 }
 
 .text {
@@ -122,9 +122,9 @@ header {
     display: flex;
     position: fixed;
     background-color: #fff;
-    width: 1264px;
+    width: 100vw;
     height: 44px;
-    padding-top: 10px;
+    align-items: center;
 }
 
 figcaption {
@@ -136,7 +136,7 @@ figcaption {
 }
 
 .author {
-    margin-top: 60px;
+    margin-top: 45px;
     color: #000;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
@@ -144,9 +144,8 @@ figcaption {
 
 .icons {
     width: 903px;
-    margin-top: 30px;
-    height: 80px;
-
+    margin-top: 20px;
+    height: 55px;
 }
 
 .buttons {
@@ -192,6 +191,7 @@ figcaption {
     margin: auto;
     height: auto;
     width: 600px;
+    margin-right: 0;
 }
 
 .para-title {
@@ -219,17 +219,20 @@ figcaption {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     margin-top: 20px;
 }
+
 .image-text {
     width: 630px;
     height: 420px;
     margin-left: 143px;
 }
+
 .image-text-caption {
-    margin:auto;
+    margin: auto;
     width: 630px;
 }
-.bottom-article{
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+
+.bottom-article {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.75rem;
     line-height: 1rem;
     width: calc(100% - 40px);
@@ -237,14 +240,47 @@ figcaption {
     margin: 0 auto 1em;
     color: #999;
 }
+
 .big {
     height: 36px;
     width: 330px;
 }
+
 .comments {
     width: 616px;
     margin-top: 30px;
     height: 90px;
     display: flex;
     margin: auto;
+}
+
+.wrapper {
+    width: 73%;
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    float: right;
+    padding-left: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.side-img {
+    height: auto;
+    max-width: 35%;
+}
+
+.fl-left {
+    float: left;
+    padding-bottom: 5px;
+}
+
+.fl-right {
+    float: right;
+    width: 60%;
+    color: rgb(51, 51, 51);
 }
