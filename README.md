@@ -1,6 +1,6 @@
 ## NY Times Clone
 
-This project is the collaboration of [Zlatan](https://github.com/zlayabekrija)& [Inzi](https://github.com/inhaq).[Preview this project](https://zlayabekrija.github.io/ny-times-clone/)
+This project is the collaboration of [Zlatan](https://github.com/zlayabekrija) & [Inzi](https://github.com/inhaq). [Preview this project](https://zlayabekrija.github.io/ny-times-clone/)
 
 To enhance and practive our HTML5/CSS3 knowledge, we cloned design of NY Times. In the process we improved our collaboration skills, learned floats, positioning, box model, layout.
 
